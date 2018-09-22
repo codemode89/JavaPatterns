@@ -1,4 +1,7 @@
-package observer_pattern.car_observer_example;
+package observer_pattern;
+
+import observer_pattern.fuel_tank_observer.FuelIndicator;
+import observer_pattern.fuel_tank_observer.FuelTank;
 
 public class Car {
 	private FuelTank fuelTank;
@@ -28,7 +31,7 @@ public class Car {
 			this.fuelTank.decreaseFuel(10);
 			System.out.println("10 liters fuel used");			
 		}else {
-			System.out.println("You can't drive without 10 liters or more in your tank.\n Pls tank some fuel :)");	
+			System.out.println("You can't drive without 10 liters or more in your tank.\n Pls refuel :)");	
 		}
 	}
 	

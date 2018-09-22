@@ -1,6 +1,4 @@
-package observer_pattern.car_observer_example;
-
-import observer_pattern.Observer;
+package observer_pattern.fuel_tank_observer;
 
 public class FuelIndicator implements Observer{
 	private int currentFuelLevel;

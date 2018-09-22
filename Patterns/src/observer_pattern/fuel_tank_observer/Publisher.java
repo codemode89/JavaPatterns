@@ -1,4 +1,4 @@
-package observer_pattern;
+package observer_pattern.fuel_tank_observer;
 
 public interface Publisher {
 	void register(Observer observer);

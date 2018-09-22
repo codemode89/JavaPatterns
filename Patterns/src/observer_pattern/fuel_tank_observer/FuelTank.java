@@ -1,10 +1,7 @@
-package observer_pattern.car_observer_example;
+package observer_pattern.fuel_tank_observer;
 
 import java.util.ArrayList;
 import java.util.List;
-
-import observer_pattern.Observer;
-import observer_pattern.Publisher;
 
 public class FuelTank implements Publisher {
 
