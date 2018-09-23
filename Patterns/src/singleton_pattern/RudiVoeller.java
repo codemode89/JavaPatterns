@@ -12,13 +12,15 @@ public class RudiVoeller {
 	private static RudiVoeller instance = null;
 	
 	public static RudiVoeller getInstance() {
-		if(instance.equals(null))
-			return new RudiVoeller();
+		if(instance == null) {
+			instance = new RudiVoeller();
+			return instance;
+		}
 		return instance;
 	}
 	
 	private RudiVoeller() {
 		
 	}
-	
+
 }
