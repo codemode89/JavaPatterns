@@ -14,7 +14,6 @@ public class RudiVoeller {
 	public static RudiVoeller getInstance() {
 		if(instance == null) {
 			instance = new RudiVoeller();
-			return instance;
 		}
 		return instance;
 	}
